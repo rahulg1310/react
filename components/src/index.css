@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+  color: #fff;
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: black;
+}
+
+.Card{
+  background-color: crimson;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.Navbar{
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 10px;
+}
