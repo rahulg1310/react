@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: white;
+}
+
+.parent{
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.Card{
+  width: 300px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.Card .top{
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Card .top button{
+  height: 25px;
+  width: 60px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid #badada;
+  border-radius: 5px; 
+  color: white;
+}
+
+.Card .center {
+  color: black;
+  padding: 30px;
+}
+
+.center span{
+  font-size: 10px;
+  color: #badada;
+}
+
+.Card img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #badada;
+}
+
+.Card .bottom{
+  padding: 30px;
+  
+}
+
+.post{
+  display: flex;
+  gap: 10px;
+}
+
+.post h4{
+  margin-top: 5px;
+  background-color: grey;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+
+.pay span{
+  font-size: 10px;
+  color: #badada;
+}
+
+.bottom button{
+  color: white;
+  background-color: black;
+  height: 25px;
+  width: 75px;
+  border: none;
+  border-radius: 5px;
+}
+
+.pt2{
+  padding: 10px;
+  display: flex;
+  border-top: 2px solid gainsboro;
+  display: flex;
+  justify-content: space-between;
+}
