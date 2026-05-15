@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+*{
+  
+  box-sizing: border-box;
+  font-family: Helvetica;
+  
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: white;
+}
+
+#right::-webkit-scrollbar{
+  display: none;
+}
